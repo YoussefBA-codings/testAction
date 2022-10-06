@@ -28,4 +28,4 @@ jobs:
          node-version: '12'
       - run: npm ci
       - run: npm i 
-      - run: node server.js
+      - run: npm run serve
